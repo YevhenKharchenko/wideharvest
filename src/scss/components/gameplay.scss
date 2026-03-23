@@ -1,0 +1,109 @@
+.gameplay-section {
+}
+
+.gameplay-bg-wrapper {
+  padding-top: 46px;
+  padding-bottom: 48px;
+
+  @include media(desktop) {
+    padding-top: 48px;
+    padding-bottom: 56px;
+  }
+}
+
+.gameplay-container {
+}
+
+.gameplay-title-wrapper {
+  @include media(desktop) {
+  }
+}
+
+.gameplay-title {
+  @include media(desktop) {
+  }
+}
+
+.gameplay-text {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  color: #191c2e;
+  margin-bottom: 20px;
+
+  @include media(desktop) {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+}
+
+.gameplay-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+
+  @include media(desktop) {
+    flex-direction: row;
+    justify-content: center;
+    gap: 48px;
+  }
+}
+
+.gameplay-img {
+  @include media(desktop) {
+    min-width: 323px;
+  }
+}
+
+.gameplay-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  @include media(desktop) {
+    max-width: max-content;
+  }
+}
+
+.gameplay-list-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  @include media(desktop) {
+  }
+}
+
+.gameplay-item-number {
+  background: #212d44;
+  border-radius: 10px;
+  min-width: 46px;
+  width: 46px;
+  height: 46px;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #8091b2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @include media(desktop) {
+  }
+}
+
+.gameplay-item-text {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #191c2e;
+
+  @include media(desktop) {
+    font-size: 16px;
+  }
+}
