@@ -1,5 +1,5 @@
 .policy-section {
-  background: #dbe2f0;
+  background: #d9e9eb;
   padding-top: 104px;
   padding-bottom: 40px;
 
@@ -10,26 +10,25 @@
 }
 
 .policy-main-title {
-  font-family: 'Mulish', sans-serif;
-  font-weight: 700;
+  font-family: 'Oxanium', sans-serif;
+  font-weight: 500;
   font-size: 32px;
-  line-height: 1.5;
   text-align: center;
-  color: #212d44;
+  color: #43423d;
   margin-bottom: 40px;
 
   @include media(desktop) {
-    font-size: 64px;
+    font-size: 48px;
     margin-bottom: 48px;
   }
 }
 
 .policy-title {
-  font-family: 'Mulish', sans-serif;
-  font-weight: 400;
+  font-family: 'Oxanium', sans-serif;
+  font-weight: 300;
   font-size: 20px;
-  line-height: 1.5;
-  color: #191c2e;
+  line-height: 1.4;
+  color: #1c1c1b;
   margin-bottom: 16px;
 
   @include media(desktop) {
@@ -37,11 +36,11 @@
 }
 
 .policy-text {
-  font-family: 'Mulish', sans-serif;
-  font-weight: 400;
+  font-family: 'Oxanium', sans-serif;
+  font-weight: 300;
   font-size: 14px;
-  line-height: 1.5;
-  color: #191c2e;
+  line-height: 1.4;
+  color: #1c1c1b;
 
   &:not(:last-child) {
     margin-bottom: 16px;
@@ -57,11 +56,11 @@
 }
 
 .policy-item {
-  font-family: 'Mulish', sans-serif;
-  font-weight: 400;
+  font-family: 'Oxanium', sans-serif;
+  font-weight: 300;
   font-size: 14px;
-  line-height: 1.5;
-  color: #191c2e;
+  line-height: 1.4;
+  color: #1c1c1b;
   margin-bottom: 8px;
 
   &:last-child {

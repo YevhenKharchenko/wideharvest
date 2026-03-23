@@ -1,8 +1,7 @@
-.gameplay-section {
-  background: #9cc7d0;
+.fields-section {
 }
 
-.gameplay-bg-wrapper {
+.fields-bg-wrapper {
   padding-top: 40px;
   padding-bottom: 56px;
 
@@ -12,20 +11,20 @@
   }
 }
 
-.gameplay-container {
+.fields-container {
 }
 
-.gameplay-title-wrapper {
+.fields-title-wrapper {
   @include media(desktop) {
   }
 }
 
-.gameplay-title {
+.fields-title {
   @include media(desktop) {
   }
 }
 
-.gameplay-text {
+.fields-text {
   font-family: 'Oxanium', sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -36,19 +35,19 @@
 
   @include media(desktop) {
     font-size: 16px;
-    max-width: 1017px;
+    max-width: 942px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
   }
 }
 
-.gameplay-content-wrapper {
+.fields-content-wrapper {
   @include media(desktop) {
   }
 }
 
-.gameplay-list {
+.fields-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -60,10 +59,10 @@
   }
 }
 
-.gameplay-list-item {
-  background: #d9e9eb;
+.fields-list-item {
+  background: #6e5d4c;
   border-radius: 4px;
-  padding: 24px;
+  padding: 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -72,23 +71,23 @@
   max-width: 164px;
 
   @include media(desktop) {
-    padding: 24px 40px;
+    padding: 24px;
     max-width: 260px;
   }
 }
 
-.gameplay-icon {
+.fields-img {
   @include media(desktop) {
   }
 }
 
-.gameplay-item-text {
+.fields-item-text {
   font-family: 'Oxanium', sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.5;
   text-align: center;
-  color: #1c1c1b;
+  color: #d9e9eb;
 
   @include media(desktop) {
     font-size: 16px;

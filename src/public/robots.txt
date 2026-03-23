@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /private/
 Allow: /
 
-Sitemap: https://networkvision.space/sitemap.xml
+Sitemap: https://wideharvest.online/sitemap.xml

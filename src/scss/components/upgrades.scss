@@ -1,10 +1,13 @@
-.gameplay-section {
+.upgrades-section {
   background: #9cc7d0;
+
+  @include media(desktop) {
+  }
 }
 
-.gameplay-bg-wrapper {
+.upgrades-bg-wrapper {
   padding-top: 40px;
-  padding-bottom: 56px;
+  padding-bottom: 40px;
 
   @include media(desktop) {
     padding-top: 48px;
@@ -12,20 +15,20 @@
   }
 }
 
-.gameplay-container {
+.upgrades-container {
 }
 
-.gameplay-title-wrapper {
+.upgrades-title-wrapper {
   @include media(desktop) {
   }
 }
 
-.gameplay-title {
+.upgrades-title {
   @include media(desktop) {
   }
 }
 
-.gameplay-text {
+.upgrades-text {
   font-family: 'Oxanium', sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -36,53 +39,73 @@
 
   @include media(desktop) {
     font-size: 16px;
-    max-width: 1017px;
+    max-width: 842px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
   }
 }
 
-.gameplay-content-wrapper {
-  @include media(desktop) {
-  }
-}
-
-.gameplay-list {
+.upgrades-content-wrapper {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 8px;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 
   @include media(desktop) {
-    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap: 24px;
   }
 }
 
-.gameplay-list-item {
+.upgrades-img-wrapper {
+  @include media(desktop) {
+    order: 2;
+  }
+}
+
+.upgrades-img {
+  @include media(desktop) {
+    min-width: 228px;
+  }
+}
+
+.upgrades-list {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+
+  @include media(desktop) {
+    flex-direction: column;
+    gap: 24px;
+  }
+}
+
+.upgrades-top-list {
+  @include media(desktop) {
+    order: 1;
+  }
+}
+
+.upgrades-list-item {
   background: #d9e9eb;
   border-radius: 4px;
-  padding: 24px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 12px;
+  padding: 16px;
   width: 100%;
-  max-width: 164px;
+  max-width: 165px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   @include media(desktop) {
     padding: 24px 40px;
-    max-width: 260px;
+    max-width: 340px;
   }
 }
 
-.gameplay-icon {
-  @include media(desktop) {
-  }
-}
-
-.gameplay-item-text {
+.upgrades-item-text {
   font-family: 'Oxanium', sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -92,5 +115,11 @@
 
   @include media(desktop) {
     font-size: 16px;
+  }
+}
+
+.upgrades-bottom-list {
+  @include media(desktop) {
+    order: 3;
   }
 }
