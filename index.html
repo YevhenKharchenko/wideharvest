@@ -198,9 +198,13 @@
             </p>
           </li>
           <li class="gameplay-list-item">
-            <svg class="gameplay-icon" width="48" height="48">
-              <use href="/wideharvest/assets/sprite-7b514162.svg#icon-reward"></use>
-            </svg>
+            <img
+              class="gameplay-reward-img"
+              src="data:image/png;base64,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"
+              alt="Screenshot of the game"
+              width="48"
+              height="48"
+            />
             <p class="gameplay-item-text">Collect rewards after each harvest</p>
           </li>
         </ul>
